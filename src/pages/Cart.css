@@ -1,0 +1,132 @@
+.cart-page {
+  min-height: 80vh;
+  padding: 60px 20px;
+  background: #f4f7fc;
+}
+
+.cart-container {
+  max-width: 850px;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 18px;
+}
+
+.cart-container h1 {
+  color: #102c55;
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5eaf1;
+}
+
+.cart-item h3 {
+  color: #102c55;
+  margin-bottom: 10px;
+}
+
+.cart-item span {
+  color: #64748b;
+}
+
+.cart-item button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #ffe8e8;
+  color: #d12c2c;
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: #102c55;
+  font-size: 18px;
+}
+
+.checkout-button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #1769d2;
+  color: white;
+  font-size: 16px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.empty-cart {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.empty-cart a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #1769d2;
+}
+
+@media (max-width: 600px) {
+  .cart-container {
+    padding: 22px 16px;
+  }
+}
+.cart-course-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  direction: ltr;
+}
+
+.quantity-controls button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 8px;
+  background: #e8f1ff;
+  color: #1769d2;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quantity-controls strong {
+  min-width: 25px;
+  text-align: center;
+  color: #102c55;
+}
+
+.remove-button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ffe8e8;
+  color: #d12c2c;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .cart-item {
+    flex-wrap: wrap;
+  }
+
+  .cart-course-info {
+    width: 100%;
+  }
+}
